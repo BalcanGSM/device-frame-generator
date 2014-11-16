@@ -16,6 +16,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.f2prateek.dfg.tests"
     android:versionCode="100"
     android:versionName="1.0.0">
@@ -33,6 +34,7 @@
   -->
   <instrumentation
       android:name="android.test.InstrumentationTestRunner"
-      android:targetPackage="com.f2prateek.dfg"/>
+      android:targetPackage="com.f2prateek.dfg"
+      tools:replace="android:targetPackage"/>
 
 </manifest>
